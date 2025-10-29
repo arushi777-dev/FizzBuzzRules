@@ -1,10 +1,7 @@
 package com.kingfisher.fb.ruleimplementation;
 
 import com.kingfisher.fb.exceptionhandler.InvalidRangeException;
-import com.kingfisher.fb.rules.BuzzRule;
-import com.kingfisher.fb.rules.FizzBuzzRule;
-import com.kingfisher.fb.rules.FizzRule;
-import com.kingfisher.fb.rules.Rule;
+import com.kingfisher.fb.rules.*;
 
 import java.util.Arrays;
 import java.util.List;
@@ -18,6 +15,7 @@ import java.util.stream.IntStream;
  * Generates 'buzz' for multiples of 5
  * Generates 'fizzbuzz' for multiples of 15
  * Returns the number itself for other cases
+ * Generates 'lucky' if the number contains a three overriding other rules
  */
 public class FizzBuzzGenerator {
 
@@ -46,6 +44,11 @@ public class FizzBuzzGenerator {
      * @return text representing the rules or the number itself
      */
    private String applyRules(int number) {
+       // Lucky rule for presence of three in a number gets precedence over other rules
+       if (new LuckyRule().matches(number)) {
+           return new LuckyRule().apply(number);
+       }
+
        for (Rule rule : rules) {
            if (rule.matches(number)) {
                return rule.apply(number);

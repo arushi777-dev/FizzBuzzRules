@@ -19,13 +19,13 @@ public class FizzBuzzGeneratorTest {
 
     @Test
     public void testDefaultFizzBuzzRule() {
-        String expected = "1 2 fizz 4 buzz fizz 7 8 fizz buzz 11 fizz 13 14 fizzbuzz 16 17 fizz 19 buzz";
+        String expected = "1 2 lucky 4 buzz fizz 7 8 fizz buzz 11 fizz lucky 14 fizzbuzz 16 17 fizz 19 buzz";
         assertEquals(expected, fizzBuzzGenerator.generateFizzBuzzValues(1,20));
     }
 
     @Test
     public void testForFizzRuleForSingleNumber() {
-        assertEquals("fizz", fizzBuzzGenerator.generateFizzBuzzValues(3,3));
+        assertEquals("lucky", fizzBuzzGenerator.generateFizzBuzzValues(3,3));
     }
 
     @Test
@@ -51,5 +51,16 @@ public class FizzBuzzGeneratorTest {
     @Test
     public void testInvalidZeroEndRange() {
         assertThrows(InvalidRangeException.class, () -> fizzBuzzGenerator.generateFizzBuzzValues(1, 0));
+    }
+
+    @Test
+    public void testFizzBuzzRuleForPresenceOfThreeInANumber() {
+        String expected = "1 2 lucky 4 buzz fizz 7 8 fizz buzz 11 fizz lucky 14 fizzbuzz 16 17 fizz 19 buzz";
+        assertEquals(expected, fizzBuzzGenerator.generateFizzBuzzValues(1,20));
+    }
+
+    @Test
+    public void testForLuckyRuleForSingleNumber() {
+        assertEquals("lucky", fizzBuzzGenerator.generateFizzBuzzValues(13,13));
     }
 }
