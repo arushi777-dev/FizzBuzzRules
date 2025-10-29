@@ -12,4 +12,4 @@ This project provides a java-based solution for the FizzBuzz problem
 
 ## Build
 - Java : ver 17
-- maven build
+- maven ver : 3.1

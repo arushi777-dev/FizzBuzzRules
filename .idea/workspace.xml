@@ -5,7 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b33367bd-755c-4df4-838b-16e7d600c33a" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/kingfisher/fb/rules/FizzBuzzGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kingfisher/fb/ruleimplementation/FizzBuzzGenerator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/kingfisher/fb/FizzBuzzGeneratorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/kingfisher/fb/FizzBuzzGeneratorTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,23 +27,66 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;/home/user_tjwm77/IdeaProjects/FizzBuzzRules/src/main/java/org/example/Main.java&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;SDKs&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "JUnit.All in FizzBuzzRules (1).executor": "Run",
+    "JUnit.FizzBuzzGeneratorTest.testInvalidNegativeInitialRange.executor": "Run",
+    "JUnit.FizzBuzzGeneratorTest.testInvalidZeroEndRange.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "onboarding.tips.debug.path": "/home/user_tjwm77/IdeaProjects/FizzBuzzRules/src/main/java/org/example/Main.java",
+    "project.structure.last.edited": "SDKs",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2"
   }
-}</component>
-  <component name="RunManager">
+}]]></component>
+  <component name="RunManager" selected="JUnit.All in FizzBuzzRules (1)">
+    <configuration name="All in FizzBuzzRules (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="FizzBuzzRules" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="All in FizzBuzzRules" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="FizzBuzzRules" />
       <option name="PACKAGE_NAME" value="" />
       <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FizzBuzzGeneratorTest.testInvalidNegativeInitialRange" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="FizzBuzzRules" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.kingfisher.fb.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.kingfisher.fb" />
+      <option name="MAIN_CLASS_NAME" value="com.kingfisher.fb.FizzBuzzGeneratorTest" />
+      <option name="METHOD_NAME" value="testInvalidNegativeInitialRange" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FizzBuzzGeneratorTest.testInvalidZeroEndRange" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="FizzBuzzRules" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.kingfisher.fb.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.kingfisher.fb" />
+      <option name="MAIN_CLASS_NAME" value="com.kingfisher.fb.FizzBuzzGeneratorTest" />
+      <option name="METHOD_NAME" value="testInvalidZeroEndRange" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -57,6 +104,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.All in FizzBuzzRules (1)" />
+        <item itemvalue="JUnit.FizzBuzzGeneratorTest.testInvalidNegativeInitialRange" />
+        <item itemvalue="JUnit.FizzBuzzGeneratorTest.testInvalidZeroEndRange" />
         <item itemvalue="JUnit.All in FizzBuzzRules" />
       </list>
     </recent_temporary>
